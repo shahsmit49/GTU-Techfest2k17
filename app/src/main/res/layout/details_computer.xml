@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/bg_poster"
+    style="@style/Fragment"
+    >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+    </LinearLayout>
+    <LinearLayout
+        style="@style/container"
+        android:onClick="Gernal"
+        android:tag="Computer"
+        >
+        <ImageView
+            style="@style/SummaryImage"
+            android:src="@drawable/relay1"
+            android:id="@+id/relay1"
+            />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Relay Coding"
+                android:id="@+id/relay2"
+                style="@style/SummaryTitle"
+                android:autoText="false" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Get your CODEMATE”"
+                android:id="@+id/relay3"
+                style="@style/SummaryText" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/container"
+        android:onClick="Gernal"
+        android:tag="Computer"
+        >
+        <ImageView
+            style="@style/SummaryImage"
+            android:src="@drawable/cquiz1"
+            android:id="@+id/cquiz1"
+            />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="C-Quiz and Debugging"
+                style="@style/SummaryTitle"
+                android:autoText="false"
+                android:id="@+id/cquiz2"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“C-atechism Amend”"
+                style="@style/SummaryText"
+                android:id="@+id/cquiz3"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/container"
+        android:onClick="Gernal"
+        android:tag="Computer"
+        >
+        <ImageView
+            style="@style/SummaryImage"
+            android:src="@drawable/etreasure1"
+            android:id="@+id/etreas1"
+            />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="E-Treasure Hunt"
+                style="@style/SummaryTitle"
+                android:autoText="false"
+                android:id="@+id/etreas2"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Put your Googling skills to the test!”"
+                style="@style/SummaryText"
+                android:id="@+id/etreas3"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/container"
+        android:onClick="Gernal"
+        android:tag="Computer"
+        >
+        <ImageView
+            style="@style/SummaryImage"
+            android:src="@drawable/logodesign1"
+            android:id="@+id/logo1"
+            />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Logo Design"
+                style="@style/SummaryTitle"
+                android:id="@+id/logo2"
+                android:autoText="false" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Creatively visualize the dreams.”"
+                android:id="@+id/logo3"
+                style="@style/SummaryText" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/container"
+        android:onClick="Gernal"
+        android:tag="Computer"
+        >
+        <ImageView
+            style="@style/SummaryImage"
+            android:src="@drawable/quickpage1"
+            android:id="@+id/quickpage1"
+            />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Quick Page"
+                android:id="@+id/quickpage2"
+                style="@style/SummaryTitle"
+                android:autoText="false" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Exhibit your ideas and creativity.”"
+                style="@style/SummaryText"
+                android:id="@+id/quickpage3"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/container"
+        android:onClick="Gernal"
+        android:tag="Computer"
+        >
+        <ImageView
+            style="@style/SummaryImage"
+            android:src="@drawable/gaming1"
+            android:id="@+id/gaming1"
+            />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/gaming2"
+                android:text="Gaming"
+                style="@style/SummaryTitle"
+                android:autoText="false" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“There ain’t no party like a LAN party.”"
+                android:id="@+id/gaming3"
+                style="@style/SummaryText" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

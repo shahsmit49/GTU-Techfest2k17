@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/Fragment"
+    android:background="@mipmap/bg_poster">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2">
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@android:color/transparent">
+
+        <ImageView
+            style="@style/DetailsImage"
+            android:id="@+id/header_image"
+            android:src="@drawable/phar"
+            />
+    </LinearLayout>
+    <View style="@style/HorizontalDivider"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/content"
+            android:layout_marginTop="5sp"
+            android:background="@android:color/transparent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@android:color/transparent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/DetailsSmallTitle"
+                    android:text="DESCRIPTION"
+                    android:paddingBottom="10sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/SmallTitle"
+                    android:text="- The event is to support the innovative and skilful idea of working and non-working pharma models which will be beneficial to the industry and society. It’s a platform for the participant to exhibit their innovative working and non-working models which bring changes in the profession of pharmacy."
+                    android:paddingBottom="15sp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="10sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/DetailsSmallTitle"
+                    android:text="RULES AND REGULATIONS:"
+                    android:paddingBottom="10sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/SmallTitle"
+                    android:text=" 1. Event is open for all students of D. Pharm., B. Pharm. and M. Pharm courses.\n 2. Presentation of model should be broadly in English or Hindi and time allotted for presentation is maximum 5 mins. There will be negative marking if the time limit is exceeded.\n 3. Participant has to send the title of topic and brief summary in not more than150 words at the given E mail i.d.\n 4. Participants need to inform in advance if any requirement like water supply, gas supply, electricity etc. to the host institute.\n 5. Participants would be evaluated on the basis of selection of topic, originality, innovation, creativity and presentation skill and beneficial to the society.\n 6. The caution should be taken to refrain from displaying obscenity, violence, prejudice, negative message or any form of vulgarity will earn a disqualification from the event."
+                    android:paddingBottom="15sp"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/set_alarm"
+            android:text="Remind Me"
+            android:onClick="setReminder"
+            style="@style/Text"
+            android:background="@color/bnew"/>
+
+    </LinearLayout>
+</LinearLayout>

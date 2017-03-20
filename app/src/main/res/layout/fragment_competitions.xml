@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/Fragment"
+    android:background="@mipmap/bg_poster"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/content"
+        >
+
+
+        <LinearLayout
+            style="@style/container"
+            android:tag="Computer"
+            >
+            <ImageView
+                style="@style/SummaryImage"
+                android:src="@drawable/computer"
+                android:id="@+id/comp1"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Computer / IT"
+                    style="@style/SummaryTitle"
+                    android:id="@+id/comp2"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/comp3"
+                    android:text="It's hardware that makes a machine fast.It's software that makes a fast machine slow."
+                    style="@style/SummaryText"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/container"
+            android:tag="Electrical"
+            >
+            <ImageView
+                style="@style/SummaryImage"
+                android:src="@drawable/electrical"
+                android:id="@+id/electrical1"
+                />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Electrical / EC / IC"
+                    android:id="@+id/electrical2"
+                    style="@style/SummaryTitle"
+                  />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/electrical3"
+                    android:text="Electricity is really just organized lightning."
+                    style="@style/SummaryText"
+                />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/container"
+            android:tag="robotics"
+            >
+            <ImageView
+                style="@style/SummaryImage"
+                android:src="@drawable/robotics"
+                android:id="@+id/robotics1"
+                />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Robotics"
+                    android:id="@+id/robotics2"
+                    style="@style/SummaryTitle"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="it was the best way to study intelligence."
+                    android:id="@+id/robotics3"
+                    style="@style/SummaryText"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            style="@style/container"
+            android:tag="mechanical"
+            >
+            <ImageView
+                style="@style/SummaryImage"
+                android:src="@drawable/mechanical"
+                android:id="@+id/mechanical1"
+                />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mechanical"
+                    android:id="@+id/mechanical2"
+                    style="@style/SummaryTitle"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mechanical3"
+                    android:text="The science and art of utilizing by machines the forces and materials of nature"
+                    style="@style/SummaryText"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/container"
+            android:tag="Civil"
+            >
+            <ImageView
+                style="@style/SummaryImage"
+                android:src="@drawable/civil"
+                android:id="@+id/civil1"
+                />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/civi2"
+                    android:text="Civil"
+                    style="@style/SummaryTitle"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The best Creator next to God is a Civil Engineer"
+                    style="@style/SummaryText"
+                    android:id="@+id/civil3"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/container"
+            android:tag="Pharmacy"
+            >
+            <ImageView
+                style="@style/SummaryImage"
+                android:src="@drawable/pharmacy"
+                android:id="@+id/pharmacy1"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pharmacy"
+                    style="@style/SummaryTitle"
+                    android:id="@+id/pharmacy2"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The best and Most Efficient Pharmacy is Within Your Own System"
+                    style="@style/SummaryText"
+                    android:id="@+id/pharmacy3"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/container"
+            android:tag="Chemical"
+            >
+            <ImageView
+                style="@style/SummaryImage"
+                android:src="@drawable/chemical"
+                android:id="@+id/chemical1"
+                />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chemical"
+                    android:id="@+id/chemical2"
+                    style="@style/SummaryTitle"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="My Chemical Romance is done. But it can never die."
+                    style="@style/SummaryText"
+                    android:id="@+id/chemical3"
+                   />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            style="@style/container"
+            android:tag="Management"
+            >
+            <ImageView
+                style="@style/SummaryImage"
+                android:src="@drawable/mange"
+                android:id="@+id/management1"
+                />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Management"
+                    android:id="@+id/management2"
+                    style="@style/SummaryTitle"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Eiether You Run the Day, Or The Day Runs You."
+                    style="@style/SummaryText"
+                    android:id="@+id/management3"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            style="@style/container"
+            android:tag="General"
+            >
+            <ImageView
+                style="@style/SummaryImage"
+                android:src="@drawable/general"
+                android:id="@+id/general1"
+                />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="General"
+                    android:id="@+id/general2"
+                    style="@style/SummaryTitle"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Memory Take Us Back, Dreams Take Us Forward
+                    "
+                    style="@style/SummaryText"
+                    android:id="@+id/general3"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

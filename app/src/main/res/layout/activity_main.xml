@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/tool_bar"
+            />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/frg"
+            >
+
+        </FrameLayout>
+    </LinearLayout>
+
+
+    <!--<FrameLayout
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        tools:layout="@layout/fragment_navigation_drawer"
+        android:id="@+id/navigation_drawer"
+        android:name="com.es.smit.gtu_techfest5.MainActivity"
+        />-->
+    <ListView
+        android:layout_width="260dp"
+        android:layout_height="match_parent"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:background="@drawable/side_nav_bar"
+        android:layout_gravity="start"
+        android:layout_marginTop="@dimen/toolbar_margin"
+        android:id="@+id/listView1"
+        />
+
+
+</android.support.v4.widget.DrawerLayout>
+
+

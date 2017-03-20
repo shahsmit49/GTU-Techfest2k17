@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_poster"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:id="@+id/relativeLayout"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/placeholder1"
+        android:id="@+id/imageButton"
+        android:layout_marginTop="17dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Our Location"
+        android:gravity="center"
+        android:id="@+id/textView6"
+        android:layout_marginTop="15dp"
+        android:textColor="#ffffff"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/imageButton"
+        android:layout_alignParentStart="true"
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Near Malvan Mandir Via Magdalla Port Dumas Road, Surat."
+            android:gravity="center"
+            android:id="@+id/textview7"
+            android:paddingTop="7dp"
+            android:layout_below="@+id/textView6"
+            android:textColor="#ffffff"
+            android:textSize="17dp"
+            android:textStyle="italic"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:paddingBottom="7dp"
+
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:id="@+id/relativeLayout1"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Our Phone"
+            android:gravity="center"
+            android:id="@+id/textView8"
+            android:layout_marginTop="15dp"
+            android:textColor="#ffffff"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/imageButton1"
+            android:layout_alignParentStart="true"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/phone"
+            android:id="@+id/imageButton1"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+91 89800-38196"
+            android:gravity="center"
+            android:id="@+id/textview9"
+            android:layout_below="@+id/textView8"
+            android:textColor="#ffffff"
+            android:paddingTop="7dp"
+            android:textSize="17dp"
+            android:textStyle="italic"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:paddingBottom="7dp"
+            android:autoLink="phone"
+            android:linksClickable="true"
+
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:id="@+id/relativeLayout2"
+        android:layout_marginBottom="37dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Our Email"
+            android:gravity="center"
+            android:id="@+id/textView9"
+            android:layout_marginTop="15dp"
+            android:textColor="#ffffff"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/imageButton2"
+            android:layout_alignParentStart="true"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/email"
+            android:id="@+id/imageButton2"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="techfest17@ckpcet.ac.in"
+            android:gravity="center"
+            android:id="@+id/textview10"
+            android:layout_below="@+id/textView9"
+            android:textColor="#ffffff"
+            android:textSize="17dp"
+            android:textStyle="italic"
+            android:paddingTop="7dp"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:paddingBottom="7dp"
+            android:autoLink="email"
+            />
+    </RelativeLayout>
+</RelativeLayout>

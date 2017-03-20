@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/bg_poster"
+    style="@style/Fragment"
+    >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            style="@style/container"
+            >
+            <ImageView
+                style="@style/SummaryImage"
+                android:src="@drawable/pharmarecipie"
+                android:id="@+id/recipe1" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pharma Recipe"
+                    style="@style/SummaryTitle"
+                    android:autoText="false"
+                    android:id="@+id/recipe2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="If you have zeal to formulate uncommon, come and Prove!"
+                    style="@style/SummaryText"
+                    android:id="@+id/recipe3" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/container"
+            >
+            <ImageView
+                style="@style/SummaryImage"
+                android:src="@drawable/pharmamodel"
+                android:id="@+id/model1" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pharma Models"
+                    style="@style/SummaryTitle"
+                    android:autoText="false"
+                    android:id="@+id/model2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Think Innovative, Be Smart."
+                    style="@style/SummaryText"
+                    android:id="@+id/model3" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/container"
+            >
+            <ImageView
+                style="@style/SummaryImage"
+                android:src="@drawable/myselfmedicine"
+                android:id="@+id/medicine1" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Myself Medicine"
+                    style="@style/SummaryTitle"
+                    android:autoText="false"
+                    android:id="@+id/medicine2"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cure People with your Magic.Reciprocate yourself and be the best."
+                    style="@style/SummaryText"
+                    android:id="@+id/medicine3" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/Fragment"
+    android:background="@mipmap/bg_poster">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@android:color/transparent"
+            >
+
+    <ImageView
+        style="@style/DetailsImage"
+        android:id="@+id/header_image"
+        android:src="@drawable/code_fest"
+        />
+
+        </LinearLayout>
+
+<View style="@style/HorizontalDivider"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/content"
+        android:layout_marginTop="5sp"
+        android:background="@android:color/transparent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@android:color/transparent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/DetailsSmallTitle"
+                android:text="DESCRIPTION"
+                android:paddingBottom="10sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/SmallTitle"
+                android:text="Code Fest is the coding festival organized by the Department of Electrical Engineering, CKPCET. Code Fest is a unique fest wherein concepts of Mathematics, logic, algorithms, language syntax, etc. are required to be deployed in programming; these concepts manifest themselves in solving problems effectively and efficiently! "
+                android:paddingBottom="15sp"
+                />
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="10sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/DetailsSmallTitle"
+                android:text="ROUND 1:"
+                android:paddingBottom="10sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/SmallTitle"
+                android:text=" 1. This round consists of test which will be taken on paper.\n 2. This round will have MCQ’s.\n 3. Marks and Time will be take into account.\n 4. Scrutiny Criteria will be decided by the jury. "
+                android:paddingBottom="15sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/DetailsSmallTitle"
+                android:text="ROUND 2:"
+                android:paddingBottom="10sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/SmallTitle"
+                android:text="1. This round consists of test which will be taken on paper.\n 2. This round will have questions (no option will be provided) where participant have to write.\n 3. Marks and Time will be take into account.\n 4. Scrutiny Criteria will be decided by the jury. "
+                android:paddingBottom="15sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/DetailsSmallTitle"
+                android:text="FINAL:"
+                android:paddingBottom="10sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/SmallTitle"
+                android:text="1. This round consists of coding which is conducted in computer lab.\n 2. Editors to be used is Turbo C/C++."
+                android:paddingBottom="15sp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="10sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/DetailsSmallTitle"
+                android:text="RULES AND REGULATIONS:"
+                android:paddingBottom="10sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/SmallTitle"
+                android:text="1. Organizer has the rights to change any rules or evaluation criteria, if necessary.\n 2. Each participant must have the identity card of his/her respected institute.\n 3. Decision taken by the judges will be consider as a final decision, and it cannot be challenged in any circumstances.\n 4. Once the quiz starts, late entries will be disqualified.\n 5. A participant must reach the location of the competition before 15 minutes else he/she will be disqualified.\n 6. Use of Cell phones or Internet is prohibited.\n 7. If any misbehaviour or indiscipline shown by the participants then they will be disqualified from the event at that time.\n 8. In case of tie in final round Case-1: Overall performance (Marks) of 2 rounds and less time taken by candidate will be counted. Case-2: If still tie occurs, then one more round may be decided by the organizers"
+                android:paddingBottom="15sp"
+                />
+
+        </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/set_alarm"
+            android:text="Remind Me"
+            android:onClick="setReminder"
+            style="@style/Text"
+            android:background="@color/bnew"/>/>
+
+    </LinearLayout>
+</LinearLayout>

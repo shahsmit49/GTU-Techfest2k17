@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/bg_poster"
+    style="@style/Fragment"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@android:color/transparent"
+                >
+                <ImageView
+                    style="@style/DetailsImage"
+                    android:src="@drawable/recruit_e_race"
+                    android:id="@+id/header_image" />
+
+            </LinearLayout>
+            <View style="@style/HorizontalDivider"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/content"
+                android:background="@android:color/transparent">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="5sp"
+                    android:background="@android:color/transparent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/DetailsSmallTitle"
+                        android:text="DESCRIPTION"
+                        android:paddingBottom="10sp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/SmallTitle"
+                        android:text="- The main objective of this event is to provide corporate experience of recruitment procedure so that you can enhance your potentialities and capabilities for grabbing new opportunities"
+                        android:paddingBottom="15sp"
+                        />
+                </LinearLayout>
+                <View style="@style/HorizontalDivider"/>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginBottom="2sp"
+                    android:background="@android:color/transparent"
+                    android:weightSum="1">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/DetailsSmallTitle"
+                        android:text="RULES AND REGULATIONS:"
+                        android:paddingBottom="10sp"
+                        />
+
+                    <TextView
+                        android:layout_width="367dp"
+                        android:layout_height="wrap_content"
+                        style="@style/DetailsSmallTitle"
+                        android:text="ROUND 1:(Written Test)"
+                        android:paddingBottom="10sp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/SmallTitle"
+                        android:text=" 1. There will be 30 questions.\n 2. The time given will be 45 minutes. \n 3. Each question will have weightage of 1 mark.\n 4. There will be no negative marking.\n 5. The paper comprises of :\n    a. General English\n    b. Logical Reasoning\n    c. General Knowledge and\n    d. Current Affairs"
+                        android:paddingBottom="15sp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/DetailsSmallTitle"
+                        android:text="ROUND 2:\n(Youth Parliament/Group Discussion)"
+                        android:paddingBottom="10sp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/SmallTitle"
+                        android:text=" - The main objective is to check how you behave, participate and contribute in a group, how much importance do you give to group objective as well as your own, how well do you listen to view-points of others and how open-mined are you in accepting views contrary to your own.\n 1. There will be maximum 8 members in one group.\n 2. Time allotment of 5 minutes will be given after delivering the topic to be discussed\n 3. Conclusion should be arrived within 15 minutes.\n 4. Slangs and abusing language is not allowed. If any critical situation arises, jury has the right to disqualify whole team.\n 5. No language barrier. Candidate can use any language on which he/she has a good command. "
+                        android:paddingBottom="15sp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="18dp"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:text="Skills to be judged:"
+                        android:paddingBottom="10sp"
+                        android:background="@android:color/transparent"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/SmallTitle"
+                        android:text=" 1. How good you are at communication with others.\n 2. How you behave and interact with group. \n 3. How open mined are you.\n 4. Your listening skills.\n 5. How you put forward your views, delivering skills.\n 6. Your leadership and decision-making skills.\n 7. Your analysing skills and subject knowledge.\n 8. Problem solving and critical thinking skills."
+
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/DetailsSmallTitle"
+                        android:text="ROUND 3:(CORPO PLAN)"
+                        android:paddingBottom="10sp"
+                        android:id="@+id/textView17" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/SmallTitle"
+                        android:text=" - The main objective is to build up the confidence level to face interview challenges. The interviewer will examine your educational background, your strengths and accomplishments. He or she is also interested in evaluating your level of motivation, values, attitude and personality which can be the important selection criterion.\n 1. There will be maximum 8 members in one group.\n 2. Time allotment of 5 minutes will be given after delivering the topic to be discussed\n 3. Conclusion should be arrived within 15 minutes.\n 4. Slangs and abusing language is not allowed. If any critical situation arises, jury has the right to disqualify whole team.\n 5. No language barrier. Candidate can use any language on which he/she has a good command. "
+                        android:paddingBottom="15sp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="18dp"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:text="Skills to be judged:"
+                        android:paddingBottom="10sp"
+                        android:background="@android:color/transparent"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/SmallTitle"
+                        android:text=" 1. Confidence level and attitude\n 2. Quality of answers \n 3. Technical aspects/knowledge\n 4. Body language\n 5. Initiator or follower"
+                        />
+                    <TextView
+                        android:layout_width="367dp"
+                        android:layout_height="wrap_content"
+                        style="@style/DetailsSmallTitle"
+                        android:text="NOTE :"
+                        android:paddingBottom="10sp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/SmallTitle"
+                        android:text=" - All rights are reserved with the coordinators. They may or may not disclose any information depending upon the information asked.\n - The rules may change according to the discretion of the organizers at any stage of the event (Participating teams will be intimated of any such changes beforehand)."
+                        android:paddingBottom="15sp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/SmallTitle"
+                        android:text="Type : Solo"
+                        android:id="@+id/textView18"
+                        android:paddingBottom="15sp"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/set_alarm"
+            android:text="Remind Me"
+            android:onClick="setReminder"
+            style="@style/Text"
+            android:background="@color/bnew"/>
+
+    </LinearLayout>
+</LinearLayout>

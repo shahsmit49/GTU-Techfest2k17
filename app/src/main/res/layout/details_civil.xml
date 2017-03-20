@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/bg_poster"
+    style="@style/Fragment"
+    >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            style="@style/container"
+            >
+            <ImageView
+                style="@style/SummaryImage"
+                android:src="@drawable/sesima"
+                android:id="@+id/seismo1" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Seismo Significado (Earthquake based event)"
+                    style="@style/SummaryTitle"
+                    android:autoText="false"
+                    android:id="@+id/seismo2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="“stop the shakes be careful of earthquake.”"
+                    style="@style/SummaryText"
+                    android:id="@+id/seismo3" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/container"
+            >
+            <ImageView
+                style="@style/SummaryImage"
+                android:src="@drawable/citadel"
+                android:id="@+id/citadel1" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The Citadel
+(Planning based event)"
+                    style="@style/SummaryTitle"
+                    android:autoText="false"
+                    android:id="@+id/citadel2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="“Turning ideas into action.”"
+                    style="@style/SummaryText"
+                    android:id="@+id/citadel3" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/container"
+            >
+            <ImageView
+                style="@style/SummaryImage"
+                android:src="@drawable/pralay"
+                android:id="@+id/pralay1" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pralay The Apocalypse
+(Disaster based event)"
+                    style="@style/SummaryTitle"
+                    android:autoText="false"
+                    android:id="@+id/pralay2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="“I always tried to turn every disaster into an opportunity.”"
+                    style="@style/SummaryText"
+                    android:id="@+id/pralay3" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/container"
+            >
+            <ImageView
+                style="@style/SummaryImage"
+                android:src="@drawable/structurent"
+                android:id="@+id/magni1" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Structurent Magnifica
+(Structure based event)"
+                    style="@style/SummaryTitle"
+                    android:autoText="false"
+                    android:id="@+id/magni2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="“We create the world”"
+                    style="@style/SummaryText"
+                    android:id="@+id/magni3" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/container"
+            >
+            <ImageView
+                style="@style/SummaryImage"
+                android:src="@drawable/aqua_arena"
+                android:id="@+id/aqua1" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Aqua Arena
+(Poster Making event)"
+                    style="@style/SummaryTitle"
+                    android:autoText="false"
+                    android:id="@+id/aqua2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="“Represnt your Idea”"
+                    style="@style/SummaryText"
+                    android:id="@+id/aqua3" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

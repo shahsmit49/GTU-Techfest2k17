@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/Fragment"
+    android:background="@mipmap/bg_poster">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@android:color/transparent">
+
+        <ImageView
+            style="@style/DetailsImage"
+            android:id="@+id/header_image"
+            android:src="@drawable/etreasure"
+            android:layout_width="match_parent"
+            />
+    </LinearLayout>
+    <View style="@style/HorizontalDivider"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/content"
+            android:layout_marginTop="5sp"
+            android:background="@android:color/transparent"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@android:color/transparent"
+                >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/DetailsSmallTitle"
+                android:text="DESCRIPTION"
+                android:paddingBottom="10sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/SmallTitle"
+                android:text="Connect dozens of images, decipher impossible riddles and find patterns where none seem to exist- Zodiac is a contest where players compete to find the answer to the given puzzle, using anything and everything they can find on the Internet. Got what it takes? It is a mind stretching event."
+                android:paddingBottom="15sp"
+                />
+            </LinearLayout>
+            <View style="@style/HorizontalDivider"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10sp"
+                android:background="@android:color/transparent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/DetailsSmallTitle"
+                android:text="ROUND 1:"
+                android:paddingBottom="10sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/SmallTitle"
+                android:text="- Solving Riddles and Logical Reasoning (Pen and Paper Round)."
+                android:paddingBottom="15sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/DetailsSmallTitle"
+                android:text="ROUND 2:"
+                android:paddingBottom="10sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/SmallTitle"
+                android:text="- Solving System Flaws (Pen and Paper Round)."
+                android:paddingBottom="15sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/DetailsSmallTitle"
+                android:text="ROUND 3:"
+                android:paddingBottom="10sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/SmallTitle"
+                android:text="- Visualization Puzzle (Goggling). "
+                android:paddingBottom="15sp"
+                />
+                </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="10sp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/DetailsSmallTitle"
+                android:text="ELIMINATION BASED ON"
+                android:paddingBottom="10sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/SmallTitle"
+                android:text=" 1. Fastest Fingers First \n 2. The team that completes the entire levels will be declared the winner."
+                android:paddingBottom="15sp"
+                />
+                <View style="@style/HorizontalDivider"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/DetailsSmallTitle"
+                android:text="RULES AND REGULATIONS:"
+                android:paddingBottom="10sp"
+                />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/SmallTitle"
+                    android:text=" 1. Time limit will be strictly monitored according to event start time. Any violation of the same will lead to immediate disqualification without notice. \n2. The answer can range from a word to a phrase or may completely and utterly surprise you.\n 3. Kindly submit your answer before the time runs out.\n 4. No clarifications or doubts about the questions will be entertained.\n 5. In case of any dispute, the decision of the organizers will be final. \n 6. No discussion between the participants is allowed once the event starts; otherwise the organizers have the full authority to disqualify the participants. \n 7. All participants will be given participation certificates. \n 8. The organizing team has the right to change the rules and regulations of the event."
+                    android:paddingBottom="15sp"
+                    android:id="@+id/textView14" />
+            </LinearLayout>
+        </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+
+        >
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/set_alarm"
+            android:text="Remind Me"
+            android:onClick="setReminder"
+            style="@style/Text"
+            android:background="@color/bnew"/>
+
+    </LinearLayout>
+</LinearLayout>

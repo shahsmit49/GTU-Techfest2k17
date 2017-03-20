@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/Fragment"
+    android:background="@mipmap/bg_poster"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2">
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@android:color/transparent"
+        >
+        <ImageView
+            style="@style/DetailsImage"
+            android:id="@+id/header_image"
+            android:src="@drawable/relay_coding"
+            android:layout_width="match_parent"
+             />
+    </LinearLayout>
+
+    <View style="@style/HorizontalDivider"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/content"
+            android:background="@android:color/transparent"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@android:color/transparent"
+                android:layout_marginBottom="10sp"
+                android:layout_marginTop="5sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/DetailsSmallTitle"
+                    android:text="DESCRIPTION"
+                    android:paddingBottom="10sp"
+                    android:id="@+id/textView5"
+                    />
+
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                style="@style/SmallTitle"
+                android:text="Relay Coding is the programming event which mainly focuses on the programming and ability to understand the Coding between 2 participants."
+                android:paddingBottom="15sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/DetailsSmallTitle"
+                android:text="ENVIRONEMENY"
+                android:paddingBottom="10sp"
+
+                />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@android:color/transparent"
+                    >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/SmallTitle"
+                    android:textStyle="bold"
+                    android:text="- Platform:"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/SmallTitle"
+                    android:text="Ubuntu"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/SmallTitle"
+                    android:textStyle="bold"
+                    android:text="- Tools:"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/SmallTitle"
+                    android:text="Code blocks, Gedit"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/SmallTitle"
+                    android:textStyle="bold"
+                    android:text="- Compiler:"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/SmallTitle"
+                    android:text="gcc"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/SmallTitle"
+                    android:textStyle="bold"
+                    android:text="- Language:"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/SmallTitle"
+                    android:text="C/C++"
+                    android:paddingBottom="15sp"
+                    />
+                </LinearLayout>
+
+            </LinearLayout>
+            </LinearLayout>
+            <View style="@style/HorizontalDivider"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@android:color/transparent"
+                >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/DetailsSmallTitle"
+                android:text="ROUND 1"
+                android:paddingBottom="10sp"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/SmallTitle"
+                android:text="1. Statement will be given at the time of event.\n2. Time Limit: 30 minutes.\n3. In 30 minutes,\n     a. First 10 minutes will be given to First participant\n    b.Next 10 minutes will be given to second participant to complete the remaining code\n  c.Remaining 10 minutes, both can code together."
+                android:paddingBottom="15sp"
+                android:id="@+id/textView3" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/DetailsSmallTitle"
+                android:text="ROUND 2"
+
+                />
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/SmallTitle"
+                android:text="1. TimeLimit:"
+                /><TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/SmallTitle"
+                android:text="Individual"
+                />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/SmallTitle"
+                android:text="In 60 minutes,\n  a.First 30 minutes will be given to First participant\n  b.Next 30 minutes will be given to second participant to complete the remaining code"
+                android:paddingBottom="15sp"
+                android:id="@+id/textView" />
+            </LinearLayout>
+
+            <View style="@style/HorizontalDivider"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@android:color/transparent"
+                >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/DetailsSmallTitle"
+                android:text="EVALUATION CRITERIA"
+                android:paddingBottom="10sp"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/SmallTitle"
+                android:text="1. Coordination\n2. Problem Completion Level\n3. Logic"
+                android:paddingBottom="15sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/DetailsSmallTitle"
+                android:text="RULES AND REGULATION"
+                android:paddingBottom="10sp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/SmallTitle"
+                android:text=" 1. Team Size: Exact 2 participants\n 2. Event Time Duration\n    a.30 minutes (Preliminary Round)\n    b. 60 minutes (Final Round)\n 3. The pre-requisite for participation in this event is sound knowledge of the C/C++ Programming.\n 4. The participants should report at the venue 15 minutes before the scheduled time of the event.\n 5. Internet usage will not be allowed to the participants.\n 6. If lesser number of teams register for this event, there will be only final round.\n 7. If any rules are found to be broken by any of the team member, it will lead to their disqualification.\n 8. The decision of the event organizers would be final and shall not to be subject to any change."
+                android:paddingBottom="15sp"
+                />
+                </LinearLayout>
+
+        </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/set_alarm"
+            android:text="Remind Me"
+            android:onClick="setReminder"
+            style="@style/Text"
+            android:background="@color/bnew"/>
+
+    </LinearLayout>
+</LinearLayout>

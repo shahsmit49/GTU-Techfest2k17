@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/Fragment"
+    android:background="@mipmap/bg_poster">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@android:color/transparent">
+
+        <ImageView
+            style="@style/DetailsImage"
+            android:id="@+id/header_image"
+            android:src="@drawable/robo_war"/>
+    </LinearLayout>
+    <View style="@style/HorizontalDivider"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/content"
+            android:layout_marginTop="5sp"
+            android:background="@android:color/transparent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@android:color/transparent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/DetailsSmallTitle"
+                    android:text="DESCRIPTION"
+                    android:paddingBottom="10sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/SmallTitle"
+                    android:text="- Robowar is an event wherein manually controlled Robots battle with each other in 20ft X 15ft arena. The robot that defeat the opponent robot is declared as a winner. "
+                    android:paddingBottom="15sp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="10sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/DetailsSmallTitle"
+                    android:text="RULES AND REGULATIONS:"
+                    android:paddingBottom="10sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/SmallTitle"
+                    android:text=" 1. Maximum 2 students per Team.\n 2. Maximum Battery Voltage Capacity: + 24 V\n 3. Robo Size (maximum): – (75×75×100) in Cm.\n 4. Weight: - With Battery – 60 Kg Max\n 5. Time: - 3 Minutes\n 6. Arena Dimension (20 Ft × 15 ft)\n 7. Decision Taken By Jury Will Be Considered Final"
+                    android:paddingBottom="15sp"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/set_alarm"
+            android:text="Remind Me"
+            android:onClick="setReminder"
+            style="@style/Text"
+            android:background="@color/bnew"/>
+
+    </LinearLayout>
+</LinearLayout>

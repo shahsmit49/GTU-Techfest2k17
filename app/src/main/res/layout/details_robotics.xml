@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/bg_poster"
+
+    style="@style/Fragment"
+    >
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            style="@style/container"
+            android:tag="Robotics"
+            >
+            <ImageView
+                style="@style/SummaryImage"
+                android:src="@drawable/robo_racee"
+                android:id="@+id/robo_race1"
+                />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Robo Race"
+                    style="@style/SummaryTitle"
+                    android:id="@+id/robo_race2"
+                    android:autoText="false" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bhag Robo Bhag."
+                    android:id="@+id/robo_race3"
+                    style="@style/SummaryText" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/container"
+            android:tag="robotics"
+            >
+            <ImageView
+                style="@style/SummaryImage"
+                android:src="@drawable/robo_line_followw"
+                android:id="@+id/robo_line_follow1"
+                />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Robo Line Follow"
+                    android:id="@+id/robo_line_follow2"
+                    style="@style/SummaryTitle"
+                    android:autoText="false" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Don’t Worry About the Destination When You Have Line to Follow"
+                    android:id="@+id/robo_line_follow3"
+                    style="@style/SummaryText" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/container"
+            android:tag="Robotics"
+            >
+            <ImageView
+                style="@style/SummaryImage"
+                android:src="@drawable/robo_warr"
+                android:id="@+id/robo_war1"
+                />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Robo War"
+                    android:id="@+id/robo_war2"
+                    style="@style/SummaryTitle"
+                    android:autoText="false" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Right is not a winner but who is left, is a winner."
+                    android:id="@+id/robo_war3"
+                    style="@style/SummaryText" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/bg_poster"
+    style="@style/Fragment"
+    >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            style="@style/container"
+            >
+            <ImageView
+                style="@style/SummaryImage"
+                android:src="@drawable/aqua_arena"
+                android:id="@+id/aqua11" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Aqua Arena"
+                    style="@style/SummaryTitle"
+                    android:autoText="false"
+                    android:id="@+id/aqua21" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Represent your idea"
+                    style="@style/SummaryText"
+                    android:id="@+id/aqua31" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/container"
+            >
+            <ImageView
+                style="@style/SummaryImage"
+                android:src="@drawable/startupindia1"
+                android:id="@+id/startupindia11" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Indian Entrepreneur"
+                    style="@style/SummaryTitle"
+                    android:autoText="false"
+                    android:id="@+id/startupindia21" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="“ASPIRE, BELIEVE, CREATE!!!”"
+                    style="@style/SummaryText"
+                    android:id="@+id/startupindia31" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

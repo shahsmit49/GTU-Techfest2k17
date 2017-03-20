@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/bg_poster"
+    style="@style/Fragment"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@android:color/transparent"
+        >
+        <ImageView
+            style="@style/DetailsImage"
+            android:src="@drawable/logo_design"
+            android:id="@+id/header_image" />
+
+    </LinearLayout>
+    <View style="@style/HorizontalDivider"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/content"
+            android:background="@android:color/transparent">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="5sp"
+                android:background="@android:color/transparent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/DetailsSmallTitle"
+                    android:text="DESCRIPTION"
+                    android:paddingBottom="10sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/SmallTitle"
+                    android:text="The main objectives of Logo Design Competition event is :\n 1. To bring out the creativity of the participants.\n 2. To project ones imaginative ideas through innovative visual design.\n 3. To concisely represent the innovative imagination."
+                    android:paddingBottom="15sp"
+                    />
+            </LinearLayout>
+            <View style="@style/HorizontalDivider"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="10dp"
+                >
+                <TextView
+                    android:layout_width="367dp"
+                    android:layout_height="wrap_content"
+                    style="@style/DetailsSmallTitle"
+                    android:text="ROUND 1:"
+                    android:paddingBottom="10sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/SmallTitle"
+                    android:text=" 1. Theme will be provided on the spot.\n 2. Time duration: 1 hour\n 3. 2nd round can be included if required."
+                    android:paddingBottom="15sp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/DetailsSmallTitle"
+                    android:text="ROUND 2:"
+                    android:paddingBottom="10sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/SmallTitle"
+                    android:text=" 1. Use 1st round’s logo in Advertisement poster.\n 2. Time duration: 1 hour"
+                    android:paddingBottom="15sp"
+                    />
+            </LinearLayout>
+            <View style="@style/HorizontalDivider"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10sp"
+                android:layout_marginBottom="2sp"
+                android:background="@android:color/transparent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/DetailsSmallTitle"
+                    android:text="RULES AND REGULATIONS:"
+                    android:paddingBottom="10sp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/DetailsSmallTitle"
+                    android:text="ELIGIBILITY:"
+                    android:paddingBottom="10sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/SmallTitle"
+                    android:text=" 1. This event is open for all the students of various disciplines in Degree / Diploma Engineering / MCA / MBA / Pharmacy."
+                    android:paddingBottom="15sp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/DetailsSmallTitle"
+                    android:text="EVALUATION CRITERIA"
+                    android:paddingBottom="10sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/SmallTitle"
+                    android:text=" 1. Creativity\n 2. Originality\n 3. Theme based"
+                    android:paddingBottom="15sp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/DetailsSmallTitle"
+                    android:text="GENERAL RULES:"
+                    android:paddingBottom="10sp"
+                    android:id="@+id/textView13" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/SmallTitle"
+                    android:text=" 1. Individual participation only.\n 2. Each participant must contain the identity card of his/her respected institute.\n 3. Participant is not allowed to bring his/her own Laptop. College will provide computer system with installed CorelDraw(Trial version) and MS-Paint. Use of internet is strictly not allowed.\n 4. The participants shall not be allowed to use mobile or other electronic gadgets.\n 5. Candidate has to remain present at the venue before 15 minutes earlier than to the timing specified for the event.\n 6. Organizer reserved the rights to change any rules or evaluation criteria, if necessary.\n 7. Participants will have to give an explanation to the judges at the end of the competition(if required).\n 8. Decision taken by the judges will be consider as a final decision, and it cannot be challenged in any circumstances.\n 9. Participant can be disqualified if found misbehaving."
+                    android:layout_marginBottom="5sp"
+                    />
+
+            </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/set_alarm"
+            android:text="Remind Me"
+            android:onClick="setReminder"
+            style="@style/Text"
+            android:background="@color/bnew"/>
+
+    </LinearLayout>
+</LinearLayout>

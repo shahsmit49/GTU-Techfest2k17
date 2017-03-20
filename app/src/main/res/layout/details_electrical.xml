@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/bg_poster"
+    style="@style/Fragment"
+    >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            style="@style/container"
+            android:tag="Electrical"
+            >
+            <ImageView
+                style="@style/SummaryImage"
+                android:src="@drawable/code_fest"
+                android:id="@+id/codefest1"
+                />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Code Fest"
+                    style="@style/SummaryTitle"
+                    android:id="@+id/codefest2"
+                    android:autoText="false" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Let’s crack the code."
+                    android:id="@+id/codefest3"
+                    style="@style/SummaryText" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/container"
+            android:tag="Electrical"
+            >
+            <ImageView
+                style="@style/SummaryImage"
+                android:src="@drawable/circuitrix"
+                android:id="@+id/circuitrix1"
+                />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Circuitrix"
+                    style="@style/SummaryTitle"
+                    android:id="@+id/circuitrix2"
+                    android:autoText="false" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Electrify the Brain."
+                    android:id="@+id/circuitrix3"
+                    style="@style/SummaryText" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/container"
+            android:tag="Electrical"
+            >
+            <ImageView
+                style="@style/SummaryImage"
+                android:src="@drawable/lasermazee"
+                android:id="@+id/lasermaze1"
+                />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Laser Maze"
+                    style="@style/SummaryTitle"
+                    android:id="@+id/lasermaze2"
+                    android:autoText="false" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Beam bending logic."
+                    android:id="@+id/lasermaze3"
+                    style="@style/SummaryText" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/container"
+            android:tag="Electrical"
+            >
+            <ImageView
+                style="@style/SummaryImage"
+                android:src="@drawable/arduino"
+                android:id="@+id/arduino1"
+                />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Arduino"
+                    android:id="@+id/arduino2"
+                    style="@style/SummaryTitle"
+                    android:autoText="false" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Playground for Embedded System Designer."
+                    style="@style/SummaryText"
+                    android:id="@+id/arduino3"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

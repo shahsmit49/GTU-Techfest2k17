@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#00c3d9</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="temp">#000000</color>
+    <color name="yellow">#F6FE0A</color>
+    <color name="red">#FC1D03</color>
+    <color name="blue">#030EFC</color>
+    <color name="white">#ffffff</color>
+    <color name="toolbarr">#FF05383D</color>
+    <color name="bnew">#8c00e6ff</color>
+    <color name="blacky">#4D000000</color>
+    <color name="blu">#1A00c3d9</color>
+
+
+</resources>

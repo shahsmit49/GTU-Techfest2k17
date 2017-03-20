@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/bg_poster"
+    style="@style/Fragment"
+    >
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            style="@style/container"
+
+            >
+            <ImageView
+                style="@style/SummaryImage"
+                android:src="@drawable/chemo_car"
+                android:id="@+id/car1" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chemo Car"
+                    style="@style/SummaryTitle"
+                    android:autoText="false"
+                    android:id="@+id/car2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="“If you like chemicals…..Now it is time to take your chemical and Run your car!!!!”"
+                    style="@style/SummaryText"
+                    android:id="@+id/car3" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/container"
+            >
+            <ImageView
+                style="@style/SummaryImage"
+                android:src="@drawable/chemo_hunt"
+                android:id="@+id/hunt1" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chemo Hunt"
+                    style="@style/SummaryTitle"
+                    android:autoText="false"
+                    android:id="@+id/hunt2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="“If you like the chemistry then explore your chemistry.”"
+                    style="@style/SummaryText"
+                    android:id="@+id/hunt3" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

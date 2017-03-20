@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/Fragment"
+    android:background="@mipmap/bg_poster">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@android:color/transparent">
+
+        <ImageView
+            style="@style/DetailsImage"
+            android:id="@+id/header_image"
+            android:src="@drawable/robo_line_follow"/>
+    </LinearLayout>
+    <View style="@style/HorizontalDivider"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/content"
+            android:layout_marginTop="5sp"
+            android:background="@android:color/transparent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@android:color/transparent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/DetailsSmallTitle"
+                    android:text="DESCRIPTION"
+                    android:paddingBottom="10sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/SmallTitle"
+                    android:text="- The objective of this contest is for a robot to follow a black line on a white background, without losing the line, and navigating several 90 degree turns. The robot to complete the course in the shortest period of time while accurately tracking the course line from start to finish wins."
+                    android:paddingBottom="15sp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="10sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/DetailsSmallTitle"
+                    android:text="RULES AND REGULATIONS:"
+                    android:paddingBottom="10sp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/SmallTitle"
+                    android:text=" 1. A team may consist of a maximum of 4 members.\n 2. Only one robot is allowed per team.\n 3. Eligibility: All students with a valid ID card of their respective educational institute are eligible to participate.\n 4. Only wireless and remote less (no external control) robots are eligible to participate. \n 5. No power supply will be provided\n 6. The line shall be a 15mm wide black coloured with white background.\n 7. Once a robot has crossed the starting line it must remain fully autonomous, or it will be disqualified.\n 8. If the robot does not move from one place for more than 2 minutes of time will be disqualified.\n 9. The robot should not damage the arena in any case, it can lead to disqualification.\n 10. Dimensional and weight limits for robots shall be strictly enforced. Robots must have passed inspection prior to competing.\n 11. Time is measured from the time the robot crosses the starting line until the time it crosses the finish line. A robot is deemed to have crossed the line when the forward most wheel or leg of the robot contacts or crosses over the line.\n 12. A maximum of 5 minutes in first qualifying round and 10 minutes in other remaining rounds is allowed for a robot to complete the course. A robot that cannot complete the course in the allotted time shall be disqualified. Only best 10 robots out of all are selected after completion of first qualifying round.\n 13. Time shall be judge with a stopwatch.\n 14. Any robot that loses the line course must reacquire the line at the point where it was lost, or at any earlier (e.g. Already traversed) point.\n 15. Any robot that loses the line course and fails to reacquire it will be allowed a single reattempt. The robot must start the course again from the beginning, and if it loses the line course on its second attempt it will be disqualified.\n 16. The decisions of all officials regarding these rules and the conduct of the event shall be final."
+                    android:paddingBottom="15sp"
+                    android:id="@+id/textView12" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="10sp">
+                <View style="@style/HorizontalDivider"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/DetailsSmallTitle"
+                    android:text="ROBOT SPECIFICATIONS:"
+                    android:paddingBottom="10sp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/SmallTitle"
+                    android:text=" - Maximum Dimensions: 20cm X 15cm X 15cm (L x B x H).\n - Maximum weight : 3Kg\n - The weight mention above is including the battery weight.\n - Ready-made (company made) robots are not allowed."
+                    android:paddingBottom="15sp"
+                    android:id="@+id/textmar6" />
+
+            </LinearLayout>
+        </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/set_alarm"
+            android:text="Remind Me"
+            android:onClick="setReminder"
+            style="@style/Text"
+            android:background="@color/bnew"/>
+
+    </LinearLayout>
+</LinearLayout>

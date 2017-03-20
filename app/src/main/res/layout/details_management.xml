@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/bg_poster"
+    style="@style/Fragment"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            style="@style/container"
+
+            >
+            <ImageView
+                style="@style/SummaryImage"
+                android:src="@drawable/smartmanager1"
+                android:id="@+id/smartmanager1"
+                />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Smart Manager"
+                    android:id="@+id/smartmanager2"
+                    style="@style/SummaryTitle"
+                    android:autoText="false" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="“Creativity at work”"
+                    android:id="@+id/smartmanager3"
+                    style="@style/SummaryText" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/container"
+
+            >
+            <ImageView
+                style="@style/SummaryImage"
+                android:src="@drawable/corpotrade1"
+                android:id="@+id/corpotrade1"
+                />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Corpo Trade"
+                    style="@style/SummaryTitle"
+                    android:autoText="false"
+                    android:id="@+id/corpotrade2"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="“PRICE IT RIGHT, IT SELLS OVERNIGHT, PRICE IT WRONG, IT STAYS TOO LONG”"
+                    style="@style/SummaryText"
+                    android:id="@+id/corpotrade3"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/container"
+            >
+            <ImageView
+                style="@style/SummaryImage"
+                android:src="@drawable/startupindia1"
+                android:id="@+id/startupindia1"
+                />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Indian Entrepreneur"
+                    style="@style/SummaryTitle"
+                    android:autoText="false"
+                    android:id="@+id/startupindia2"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="“Aspire,Believe,Create”"
+                    style="@style/SummaryText"
+                    android:id="@+id/startupindia3"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/container"
+            >
+            <ImageView
+                style="@style/SummaryImage"
+                android:src="@drawable/treasurehunt1"
+                android:id="@+id/treasurehunt1"
+                />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Khajaan-E-Khoj"
+                    style="@style/SummaryTitle"
+                    android:id="@+id/treasurehunt2"
+                    android:autoText="false" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="“Rich the treasure,sweet the pleasure”"
+                    android:id="@+id/treasurehunt3"
+                    style="@style/SummaryText" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/container"
+
+            >
+            <ImageView
+                style="@style/SummaryImage"
+                android:src="@drawable/recruiterace1"
+                android:id="@+id/recruiterace1"
+                />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Recruit-E-Race"
+                    android:id="@+id/recruiterace2"
+                    style="@style/SummaryTitle"
+                    android:autoText="false" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="“It's all about YOU”"
+                    style="@style/SummaryText"
+                    android:id="@+id/recruiterace3"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

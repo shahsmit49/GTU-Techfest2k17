@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/Fragment"
+    android:background="@mipmap/bg_poster">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@android:color/transparent">
+
+                <ImageView
+                    style="@style/DetailsImage"
+                    android:id="@+id/header_image"
+                    android:src="@drawable/start_up_india"/>
+            </LinearLayout>
+            <View style="@style/HorizontalDivider"/>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:id="@+id/content"
+                android:layout_marginTop="5sp"
+                android:background="@android:color/transparent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@android:color/transparent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/DetailsSmallTitle"
+                        android:text="DESCRIPTION"
+                        android:paddingBottom="10sp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/SmallTitle"
+                        android:text="- The critical ingredient of an entrepreneur is getting off and doing something. A lot of people have ideas, but there are few who decide to do something about them now. Not tomorrow. Not next week. But today. The true entrepreneur is a doer, not a dreamer.” If you have got an idea come and showcase it and bring out what lies inside you. This event tries to bring out the hidden entrepreneur and helps you to showcase your talent. It helps in building confidence and makes you believe that you’ve got the guts to be an entrepreneur."
+                        android:paddingBottom="15sp"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@android:color/transparent"
+                    android:layout_marginTop="10sp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/DetailsSmallTitle"
+                        android:text="RULES AND REGULATIONS:"
+                        android:paddingBottom="10sp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/SmallTitle"
+                        android:text=" 1. This is an event in which an individual or a group of 2 can take part.\n 2. Participants have to present their idea in form of presentation/model(model is not mandatory).\n 3. The participants won’t be given any time to make the presentation on the day of the event so the participants should be ready with the presentation (ppt format) on the day of the event.(Prepare the presentation from home)\n 4. The judgment criteria for getting into the 2nd round will be based on\n    a. Feasibility\n    b. Cost-effectiveness\n    c. Time Limit etc depending upon the judge.\n 5. The participants will be allowed to present their idea within a time limit of maximum 10 minutes.\n 6. If we find any content that has copied/taken directly from the internet or social media , that particular participant/team will be directly disqualified."
+                        android:paddingBottom="15sp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/DetailsSmallTitle"
+                        android:text="NOTE :"
+                        android:paddingBottom="10sp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/SmallTitle"
+                        android:text=" - Number of rounds may be increased as per the number of participants.\n - All rights are reserved with the coordinators. They may or may not disclose any information depending upon the information asked.\n - The rules may change according to the discretion of the organizers at any stage of the event (Participating teams will be intimated of any such changes beforehand)."
+
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/SmallTitle"
+                        android:text="No of Participants : Max 2"
+                        android:id="@+id/textView18"
+                        android:paddingBottom="15sp"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/set_alarm"
+            android:text="Remind Me"
+            android:onClick="setReminder"
+            style="@style/Text"
+            android:background="@color/bnew"/>
+
+    </LinearLayout>
+</LinearLayout>
